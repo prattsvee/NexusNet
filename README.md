@@ -2,7 +2,8 @@
 
 # RFC 2813 IRC Server Implementation
 
-![image](https://github.com/user-attachments/assets/f9449874-bed9-4b52-b1ce-eaf4175a1f81)
+![image](https://github.com/user-attachments/assets/aa6793c6-a697-4371-a662-314b6a6b3f5e)
+
 
 
 ### NexusNet: IRC Server Protocol Implementation (RFC 2813)
