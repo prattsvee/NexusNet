@@ -2,7 +2,8 @@
 
 # RFC 2813 IRC Server Implementation
 
-![image](https://github.com/user-attachments/assets/aa6793c6-a697-4371-a662-314b6a6b3f5e)
+![image](https://github.com/user-attachments/assets/f249de31-b02a-4233-9dfd-68c6face852e)
+
 
 
 
