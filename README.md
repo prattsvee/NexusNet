@@ -2,6 +2,16 @@
 
 # RFC 2813 IRC Server Implementation
 
+### NexusNet: IRC Server Protocol Implementation ([RFC 2813](https://datatracker.ietf.org/doc/html/rfc2813))
+
+Welcome to **NexusNet**, a robust and efficient IRC server implementation written entirely in **C**. Designed to conform to **[RFC 2813](https://datatracker.ietf.org/doc/html/rfc2813)**, NexusNet provides a lightweight, scalable, and secure solution for IRC server-to-server communication.
+
+---
+
+### **About NexusNet**
+**NexusNet** is a high-performance IRC server that enables seamless inter-server communication. With its implementation in C, NexusNet ensures optimized performance and memory usage, making it ideal for large-scale deployments.
+
+
 ![image](https://github.com/user-attachments/assets/ddbef559-1a35-4723-8c04-31a34767d908)
 
 ### MindMap:
