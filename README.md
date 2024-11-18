@@ -1,21 +1,15 @@
-
+---
 
 # RFC 2813 IRC Server Implementation
 
 ![image](https://github.com/user-attachments/assets/ddbef559-1a35-4723-8c04-31a34767d908)
 
-
-
 ### MindMap:
 ![image](https://github.com/user-attachments/assets/6e7ca3a5-d5e3-4f55-a5ee-3f636b18d091)
 
+### NexusNet: IRC Server Protocol Implementation ([RFC 2813](https://datatracker.ietf.org/doc/html/rfc2813))
 
-
-
-
-### NexusNet: IRC Server Protocol Implementation (RFC 2813)
-
-Welcome to **NexusNet**, a robust and efficient IRC server implementation written entirely in **C**. Designed to conform to **RFC 2813**, NexusNet provides a lightweight, scalable, and secure solution for IRC server-to-server communication.
+Welcome to **NexusNet**, a robust and efficient IRC server implementation written entirely in **C**. Designed to conform to **[RFC 2813](https://datatracker.ietf.org/doc/html/rfc2813)**, NexusNet provides a lightweight, scalable, and secure solution for IRC server-to-server communication.
 
 ---
 
@@ -25,7 +19,7 @@ Welcome to **NexusNet**, a robust and efficient IRC server implementation writte
 ---
 
 ### **Key Features**
-1. **RFC 2813 Compliance**
+1. **[RFC 2813](https://datatracker.ietf.org/doc/html/rfc2813) Compliance**
    - Implements mandatory server-to-server communication features, including message propagation, user state management, and channel synchronization.
 
 2. **Optimized Performance**
@@ -53,7 +47,7 @@ Welcome to **NexusNet**, a robust and efficient IRC server implementation writte
    - **User Session Manager**: Tracks user connections and state.
 
 2. **Server Linking**
-   - Implements tree-based server connections as per RFC 2813.
+   - Implements tree-based server connections as per [RFC 2813](https://datatracker.ietf.org/doc/html/rfc2813).
    - Includes fault-tolerant mechanisms for link stability.
 
 3. **Protocol Extensions**
@@ -68,18 +62,13 @@ Welcome to **NexusNet**, a robust and efficient IRC server implementation writte
    - GCC or Clang compiler.
    - OpenSSL library for TLS support.
 
-2. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/NexusNet.git
-   cd NexusNet
-   ```
 
-3. **Build the Server**
+2. **Build the Server**
    ```bash
    make
    ```
 
-4. **Run the Server**
+3. **Run the Server**
    ```bash
    ./nexusnet --config config.cfg
    ```
@@ -104,15 +93,8 @@ Welcome to **NexusNet**, a robust and efficient IRC server implementation writte
 
 ---
 
-### **Contribution**
-1. Fork the repository.
-2. Create a new branch for your feature.
-3. Submit a pull request with clear documentation of changes.
-
----
-
 ### **Acknowledgments**
-NexusNet is inspired by RFC 2813 and benefits from the contributions of the global IRC community. Special thanks to developers and testers who helped refine this implementation.
+NexusNet is inspired by [RFC 2813](https://datatracker.ietf.org/doc/html/rfc2813) and benefits from the contributions of the global IRC community. Special thanks to developers and testers who helped refine this implementation.
 
 ---
 
@@ -120,13 +102,3 @@ NexusNet is inspired by RFC 2813 and benefits from the contributions of the glob
 This project is open-source under the MIT License. See the `LICENSE` file for more details.
 
 ---
-
-Let me know if you'd like to add a deeper dive into specific algorithms, a section on the project's limitations, or future roadmap plans!
-
-## References
-
-- [RFC 2813 - Internet Relay Chat: Server Protocol](https://datatracker.ietf.org/doc/html/rfc2813)
-- [RFC 1459 - Internet Relay Chat Protocol](https://datatracker.ietf.org/doc/html/rfc1459)
-
----
-
